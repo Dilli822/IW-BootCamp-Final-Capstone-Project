@@ -1,0 +1,18 @@
+
+
+{% extends 'customuser/base.html' %}
+{% block title %} Mero Health | login {% endblock %}
+{% block content %} 
+<h2>Login</h2>
+<form action="" method="post">
+    {% csrf_token %}
+
+    <input type="text" placeholder="username"> <br>
+    <input type="password" name="" id="" placeholder="password"> <br>
+    <button type="submit">
+        login
+    </button>
+    <h3>Dont' have an account?</h3>
+    <a href="">signup</a>
+    {% endblock %}
+</form>

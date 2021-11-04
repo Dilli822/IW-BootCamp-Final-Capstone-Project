@@ -1,0 +1,28 @@
+Notice regarding the Final Project
+The theme for the project should be based on 'Ed-tech' (Education Technology) or 'Health Care'. The project should be done individually. After the discussion on your submitted proposals, you can continue your project. The proposal should be a PDF file including the project title, abstract, introduction, problem statement, methodology, and conclusion. You will be provided with a form to submit the project proposal. Provided below is the list of 'must-have' and 'nice to have in the project.
+
+Must-Have
+RDMS [MySQL or Postgress]
+Min of 10 tables excluding Django defaults
+At least 3 FK relation, and 2 One to One relation
+Custom User Auth Model
+User management Feature [SignUp, login, Reset Password]
+File/Image Upload
+Linting tools and code a/c to PEP-8
+Basic RBAC
+Paginations, filtering, ordering in APIS
+Responsive Web App
+
+Nice To Have
+RBAC a/c to Groups and dynamic permissions
+Caching [i.e Redis]
+Django Tests
+Many To Many relations
+SEO friendly app [Generation of sitemaps feeds and good meta tags]
+Social Login Providers
+Account recent activity
+Any Third Party APIs integrations
+Sentry Integrations
+Tech Stacks: Django and React
+
+For any other queries, we can discuss in group chat or please DM your tutors.

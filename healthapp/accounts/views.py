@@ -10,7 +10,7 @@ def login_view(request):
         form = LoginForm(request.POST)
         if form.is_valid():
             user= authenticate(username = form.cleaned_data['username'],
-                               password=form.cleaned_data['password'])
+                               password = form.cleaned_data['password'])
             if user:
                 print("A user is found--->", user)
                 login(request, user)
@@ -29,8 +29,10 @@ def login_view(request):
 def profile_view(request):
     if request.user.is_authenticated:
         #ok passed
+        print("User is authenticated!")
         pass
     else:
         #throw error for not authenticated person
+        print("User is not AUTHENTICATED!")
         pass
     return render(request, 'accounts/profile.html')
